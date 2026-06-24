@@ -3,11 +3,22 @@
 A Postgresql project for cleaning Employee table 
 
 # Feature
--Remove null & empty value 
+-Clean table  
 
--Analyse tables 
+-Analyse table
 
--View new value 
+-create  main view table 
 
 -Automate cleaning 
+
+-backup cleaning 
+
+# Technology 
+
+-PostgreSQL 
+
+-VS code 
+
+-Git & Github 
+
 

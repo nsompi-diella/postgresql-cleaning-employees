@@ -33,9 +33,9 @@ CREATE TABLE experiences (
 -- =========================
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
-    fullname VARCHAR(150) NOT NULL,
+    fullname VARCHAR(150),
     phone VARCHAR(20),
-    email VARCHAR(150) UNIQUE,
+    email VARCHAR(150),
     age INTEGER,
     city VARCHAR(100),
     salary NUMERIC(10,2),
