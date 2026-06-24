@@ -53,10 +53,10 @@ AND e.email IS NOT NULL
 AND ( e.age IS NOT NULL AND e.age > 0 ) 
 AND ( e.salary IS NOT NULL AND e.salary>0 )
 AND e.phone IS NOT NULL
-AND country_id IS NOT NULL
-AND department_id IS NOT NULL
-AND hire_date IS NOT NULL 
-AND e.status ='Actif'
+AND e.country_id IS NOT NULL
+AND e.department_id IS NOT NULL
+AND e.hire_date IS NOT NULL 
+AND e.status IS NOT NULL 
 ORDER BY e.ID ASC  ;
 
 
